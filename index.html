@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Data Type Array</title>
+
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <em class="myem"></em>
+        <strong data-x="y"></strong>
+
+        <script>
+            //1 way to create an array i.e []
+            let students = [ // decleration and initialization
+                            "A",
+                            "B",
+                            "C"
+                            ];//elements/items/members
+
+            console.log(students[0]);
+            console.log(students[1]);
+            console.log(students[2]);
+
+            //2. Way of creating an array
+
+            
+
+            let cars = new Array('Tata',"Maruti",`Mahindra`); // new ClassName()
+            
+            //arrayName[indexNumber]
+            window.alert(cars[0]);
+
+            let e = document.querySelector('.myem');
+            console.log(e);
+            e.innerHTML = cars[1];
+            e.style.color = 'red';
+
+            //DRY Principle 
+
+            //Try to reuse the code
+
+            let friends = []; //Declaring empty array
+
+            friends[0] = "Rahul"; // initialization
+            friends[1] = "Rakesh"; // initialization
+            friends[2] = "Ram"; // initialization
+
+            console.log(friends[1])
+            friends[3] = "Ravi";
+
+            friends[3] = "Harish"
+
+            //4. way of displaying js code
+
+            //document.write()
+
+            document.write('<h1>'+friends[3]+'</h1>');
+
+
+           //document.querySelector('strong[data-x="y"]').innerHTML = 'My Fav Cars are';
+
+            let s = document.querySelector('strong[data-x="y"]');
+            s.innerHTML = 'My Fav Cars are '+cars;
+            console.log(s);
+
+
+
+            let $allnews1 = new Array(
+                                {
+                                    heading:"",
+                                    detail:"",
+                                    published:""
+                                },
+                                {
+                                    heading:"",
+                                    detail:"",
+                                    published:""
+                                },
+                                {
+                                    heading:"",
+                                    detail:"",
+                                    published:""
+                                }
+                            );//Array of object
+
+            let _allnews2 = [{},{},{}]; // i.e array of object
+
+
+        </script>
+    </body>
+</html>

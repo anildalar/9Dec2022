@@ -1,0 +1,22 @@
+What is an Array?
+Array is a special kind of variable which can store more than one value of different data type at time.
+
+let x = [1,3.4,"anil",[],{},true]
+
+How many way you can create an Array in JS?
+
+There are 2 Ways
+
+1. []
+2. Array() Function
+
+em = emphasis tag  = italic tag
+
+strong             = bold tag
+
+
+\ = Escape character
+
+/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+
