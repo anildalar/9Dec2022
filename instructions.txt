@@ -15,7 +15,7 @@ em = emphasis tag  = italic tag
 strong             = bold tag
 
 
-\ = Escape character
+\ = Escape character    C programming language
 
 /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
 
